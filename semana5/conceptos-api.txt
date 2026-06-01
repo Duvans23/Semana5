@@ -1,0 +1,8 @@
+La ruta app.post('/reporte') recibe un mensaje enviado por el usuario mediante una
+solicitud POST y devuelve una respuesta en formato JSON confirmando que el reporte fue 
+recibido. Esta funcionalidad permite que el servidor procese información enviada desde 
+formularios o aplicaciones. En una aplicación comunitaria, esta ruta serviría para que las 
+personas envíen reportes, solicitudes, denuncias o sugerencias de manera organizada y 
+segura. Al centralizar los mensajes y proteger los datos enviados, la comunidad puede 
+gestionar mejor la información, responder más rápido y fortalecer la participación 
+ciudadana.

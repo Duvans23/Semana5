@@ -1,0 +1,13 @@
+http://localhost:3000  
+Al ingresar a esta ruta, el servidor muestra el mensaje principal definido en server.js.
+Es la página de inicio y normalmente devuelve un texto "Servidor activo"
+
+http://localhost:3000/saludo  
+En esta ruta el servidor responde con el mensaje "Hola comunidad". Cada vez que se
+accede, muestra el texto programado para esa ruta, confirmando que el servidor reconoce
+correctamente la URL /saludo.
+
+http://localhost:3000/mensaje/juan  
+Esta ruta muestra el mensaje "Hola juan" usando el parámetro que se coloca al final de 
+la URL. Si cambio “juan” por otro nombre, el mensaje también cambia, lo que demuestra que 
+el servidor está recibiendo y procesando parámetros dinámicos.
